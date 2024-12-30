@@ -6,7 +6,7 @@ This example shows how to use Formizee with [Angular](https://angular.dev).
 
 1. Update the endpoint url in `src/app/app.component.html` file.
 
-```tsx
+```html
 // Update this //
 <form method="post" action="https://api.formizee.com/v1/f/enp_123456">
 ```
