@@ -1,6 +1,6 @@
 {
-  "name": "formizee-angular-example",
-  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,6 @@
     "test": "ng test",
     "serve:ssr:formizee-angular-example": "node dist/formizee-angular-example/server/server.mjs"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^19.0.0",
     "@angular/common": "^19.0.0",
@@ -40,5 +39,6 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.6.2"
-  }
+  },
+  "packageManager": "pnpm@9.7.1"
 }
